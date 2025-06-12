@@ -1,0 +1,16 @@
+/**
+ *
+ * @author bagastyahendraswara
+ */
+public class EconomicTrain extends Train {
+
+    public EconomicTrain(String name, String source, String destination, String time, int maxCapacity, int trainNumber) {
+        super(name, source, destination, time, maxCapacity, trainNumber);
+    }
+
+    @Override
+    public void displayInfo() {
+        System.out.println("[Economic Class Train]");
+        super.displayInfo();
+    }
+}
